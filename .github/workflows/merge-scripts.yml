@@ -1,0 +1,52 @@
+name: Merge Scripts to Gist
+
+on:
+  workflow_dispatch:
+
+jobs:
+  merge-and-upload:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Merge all script JSONs into AllScripts.json
+        run: |
+          node -e "
+            const fs = require('fs');
+            const path = require('path');
+
+            const dir = './Scripts';
+            const files = fs.readdirSync(dir).filter(f => f.endsWith('.json'));
+
+            const scripts = files.map(file => {
+              const content = fs.readFileSync(path.join(dir, file), 'utf8');
+              return JSON.parse(content);
+            });
+
+            // Sort by overall rating descending
+            scripts.sort((a, b) => b.ratings.overall - a.ratings.overall);
+
+            const output = {
+              updatedAt: new Date().toISOString(),
+              count: scripts.length,
+              scripts
+            };
+
+            fs.writeFileSync('./AllScripts.json', JSON.stringify(output, null, 2));
+            console.log('Merged ' + scripts.length + ' scripts.');
+          "
+
+      - name: Upload AllScripts.json to Gist
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GIST_ID: ${{ secrets.GIST_ID }}
+        run: |
+          CONTENT=$(cat ./AllScripts.json | jq -Rs .)
+          curl -s -X PATCH \
+            -H "Authorization: token $GH_TOKEN" \
+            -H "Accept: application/vnd.github+json" \
+            https://api.github.com/gists/$GIST_ID \
+            -d "{\"files\":{\"AllScripts.json\":{\"content\":$CONTENT}}}"
+          echo "Uploaded to Gist successfully."

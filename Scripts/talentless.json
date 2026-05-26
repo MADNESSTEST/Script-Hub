@@ -1,0 +1,16 @@
+{
+  "id": "talentless",
+  "name": "TALENTLESS",
+  "author": "hellohellohell0",
+  "description": "The gold standard for Roblox piano autoplaying. Features a randomized note-release algorithm, adjustable error margin for human-like imperfections, MIDI spoofing in Piano Rooms, velocity and sustain pedal support, and the MIDI2LUA converter for custom songs. Ships with 500+ quality-arranged built-in tracks.",
+  "howToUse": "1. Get a key from the Linkvertise page on hellohellohell0.com/talentless\n2. Paste the script into your executor and execute\n3. Enter your key when prompted\n4. Browse the built-in song list or use MIDI2LUA on their website to convert your own MIDI files\n5. Adjust error margin for human-like playing, then hit Play",
+  "categories": ["Piano", "Virtual Piano"],
+  "badges": ["PIANO", "MIDI", "KEY SYSTEM"],
+  "script": "pcall(function() loadstring(game:HttpGet('https://hellohellohell0.com/talentless-raw/TALENTLESS.lua', true))() end)",
+  "ratings": {
+    "usability": 4.5,
+    "easeOfUse": 3.5,
+    "quality": 5.0,
+    "overall": 4.3
+  }
+}
