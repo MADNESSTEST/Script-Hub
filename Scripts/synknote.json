@@ -17,7 +17,7 @@
     "NO KEY SYSTEM",
     "CUSTOM UI"
   ],
-  "script": "loadstring(game:HttpGet('YOUR_SCRIPT_URL_HERE'))()",
+  "script": "loadstring(game:HttpGet('https://gist.githubusercontent.com/VBfHKC86WxpXyIgr/70348de54b041d5b2d8d3d161798e643/raw/SynkNote'))()",
   "ratings": {
     "usability": 4.8,
     "easeOfUse": 4.5,
