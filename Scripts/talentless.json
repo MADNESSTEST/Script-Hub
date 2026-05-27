@@ -9,7 +9,7 @@
   "script": "pcall(function() loadstring(game:HttpGet('https://hellohellohell0.com/talentless-raw/TALENTLESS.lua', true))() end)",
   "ratings": {
     "features": 5.0,
-    "easeOfUse": 3.5,
+    "easeOfUse": 4.0,
     "quality": 5.0,
     "overall": 4.3
   }
