@@ -8,7 +8,7 @@
   "badges": ["PIANO", "QWERTY", "PC", "MOBILE", "NO KEY SYSTEM"],
   "script": "loadstring(game:HttpGet('https://gist.githubusercontent.com/VBfHKC86WxpXyIgr/70348de54b041d5b2d8d3d161798e643/raw/SynkNote'))()",
   "ratings": {
-    "usability": 3.2,
+    "features": 3.2,
     "easeOfUse": 4.5,
     "quality": 3.9,
     "overall": 4.1
