@@ -5,7 +5,7 @@
   "description": "SynkNote is a text-based piano note player for Roblox virtual piano games. Paste or type Virtual Piano notation directly into the built-in editor, set your BPM, and let it play. Comes with a preset song library spanning Modern, Anime, Emotional, Classical, Game OST, and Other categories, plus local save/load for your own songs. Extra features include loop mode, a float window for clean recording, anti-lag mode, a live note visualizer, and keyboard shortcuts ([ to play, ] to stop).",
   "howToUse": "1. Paste or type Virtual Piano notes into the NOTES editor — use [ ] for chords, { } for sustained notes, - for a short pause, and | for a long pause\n2. Open ⚙ Settings to set your BPM, or browse the 📂 Library to load a preset or saved song\n3. Press ▶ Play (or the [ key) to start playback, and ] to stop",
   "categories": ["Piano"],
-  "badges": ["PIANO", "QWERTY", "KEY SYSTEM"],
+  "badges": ["PIANO", "QWERTY", "NO KEY SYSTEM"],
   "script": "loadstring(game:HttpGet('https://gist.githubusercontent.com/VBfHKC86WxpXyIgr/70348de54b041d5b2d8d3d161798e643/raw/SynkNote'))()",
   "ratings": {
     "usability": 4.1,
