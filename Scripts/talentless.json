@@ -8,7 +8,7 @@
   "badges": ["PIANO", "MIDI", "PC", "MOBILE", "KEY SYSTEM"],
   "script": "pcall(function() loadstring(game:HttpGet('https://hellohellohell0.com/talentless-raw/TALENTLESS.lua', true))() end)",
   "ratings": {
-    "usability": 4.5,
+    "features": 5.0,
     "easeOfUse": 3.5,
     "quality": 5.0,
     "overall": 4.3
