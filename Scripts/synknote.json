@@ -2,26 +2,15 @@
   "id": "synknote",
   "name": "SynkNote",
   "author": "Panda Hub",
-  "description": "SynkNote is an outstanding QWERTY virtual piano autoplayer designed specifically for Roblox virtual pianos. Unlike MIDI-based players, it converts classic text-based piano sheets into virtual keyboard keystrokes natively. It earns a perfect Quality score (5.0) for its modern 'Slate Minimal' interface, responsive layouts, and highly accurate chord/sustained note-parsing engine. With high usability (4.8), it offers a compact floating overlay for mobile/small screen support, adjustable BPM controls, and an integrated Anti-Lag system. Ease of Use (4.5) is excellent, featuring a rich built-in catalog of preloaded cloud songs alongside local sheet saving functionality.",
-  "howToUse": "1. Execute the script using a compatible Roblox executor that supports keypress and keyrelease functions.\n2. Paste any standard text-based QWERTY piano sheet into the notes box, or choose a preloaded song from the built-in Library.\n3. Adjust your BPM speed to perfectly time the keystrokes using the direct input or +/- buttons.\n4. Press Play or use the '[' hotkey on your keyboard to start playing automatically.",
-  "categories": [
-    "Piano",
-    "Virtual Piano",
-    "Music",
-    "Autoplay",
-    "Utility"
-  ],
-  "badges": [
-    "QWERTY",
-    "SHEET PLAYER",
-    "NO KEY SYSTEM",
-    "CUSTOM UI"
-  ],
+  "description": "SynkNote is a text-based piano note player for Roblox virtual piano games. Paste or type Virtual Piano notation directly into the built-in editor, set your BPM, and let it play. Comes with a preset song library spanning Modern, Anime, Emotional, Classical, Game OST, and Other categories, plus local save/load for your own songs. Extra features include loop mode, a float window for clean recording, anti-lag mode, a live note visualizer, and keyboard shortcuts ([ to play, ] to stop).",
+  "howToUse": "1. Paste or type Virtual Piano notes into the NOTES editor — use [ ] for chords, { } for sustained notes, - for a short pause, and | for a long pause\n2. Open ⚙ Settings to set your BPM, or browse the 📂 Library to load a preset or saved song\n3. Press ▶ Play (or the [ key) to start playback, and ] to stop",
+  "categories": ["Piano"],
+  "badges": ["PIANO", "QWERTY", "KEY SYSTEM"],
   "script": "loadstring(game:HttpGet('https://gist.githubusercontent.com/VBfHKC86WxpXyIgr/70348de54b041d5b2d8d3d161798e643/raw/SynkNote'))()",
   "ratings": {
-    "usability": 4.8,
-    "easeOfUse": 4.5,
-    "quality": 3.6,
-    "overall": 4.3
+    "usability": 4.1,
+    "easeOfUse": 4.4,
+    "quality": 3.9,
+    "overall": 4.1
   }
 }
