@@ -8,7 +8,7 @@
   "badges": ["PIANO", "DRUM", "GUITAR", "PC", "MIDI", "MOBILE", "KEY SYSTEM"],
   "script": "loadstring(game:HttpGet('https://romidi-script.pages.dev/RoMidi.txt'))()",
   "ratings": {
-    "features": 4.4,
+    "features": 4.5,
     "easeOfUse": 4.5,
     "quality": 4.4,
     "overall": 4.5
