@@ -8,9 +8,9 @@
   "badges": ["PIANO", "MIDI", "PC", "MOBILE", "KEY SYSTEM"],
   "script": "loadstring(game:HttpGet('https://raw.githubusercontent.com/MADNESSTEST/Pqoeirnfjw/refs/heads/main/ChordRush'))()",
   "ratings": {
-    "usability": 4.4,
-    "easeOfUse": 3.8,
-    "quality": 4.6,
-    "overall": 4.3
+    "usability": 3.9,
+    "easeOfUse": 4.2,
+    "quality": 3.7,
+    "overall": 4.0
   }
 }
