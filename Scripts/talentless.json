@@ -6,7 +6,7 @@
   "howToUse": "1. Get a key from the Linkvertise page on hellohellohell0.com/talentless\n2. Paste the script into your executor and execute\n3. Enter your key when prompted\n4. Browse the built-in song list or use MIDI2LUA on their website to convert your own MIDI files\n5. Adjust error margin for human-like playing, then hit Play",
   "categories": ["Piano", "Virtual Piano"],
   "badges": ["PIANO", "MIDI", "PC", "MOBILE", "KEY SYSTEM"],
-  "script": "loadstring(game:HttpGet('https://hellohellohell0.com/talentless-raw/TALENTLESS.lua'))()"
+  "script": "loadstring(game:HttpGet('https://hellohellohell0.com/talentless-raw/TALENTLESS.lua'))()",
   "ratings": {
     "features": 5.0,
     "easeOfUse": 4.0,
