@@ -1,0 +1,16 @@
+{
+  "id": "chordrush",
+  "name": "ChordRush",
+  "author": "Panda Hub",
+  "description": "ChordRush is a MIDI-powered auto piano player for Roblox virtual piano games. It streams a built-in song library from GitHub across categories like Modern, Anime, Classical, Movie, Emotional, and Game OST — or plays your own local MIDI files stored in the ChordRushMidi folder. Features include a live song browser with search, manual and Auto BPM mode, a seekable progress bar, float mode with recording mode support, and a compact draggable UI with a detachable side panel.",
+  "howToUse": "1. Click the ♪ Song Browser button to open the track list panel\n2. Pick a category from the dropdown (Custom, Modern, Anime, Classical, etc.) and click a song to select it\n3. Adjust BPM manually or toggle Auto BPM to follow the MIDI tempo, then press ▶ to play",
+  "categories": ["Piano"],
+  "badges": ["PIANO", "MIDI", "KEY SYSTEM"],
+  "script": "loadstring(game:HttpGet('https://raw.githubusercontent.com/MADNESSTEST/Pqoeirnfjw/refs/heads/main/ChordRush'))()",
+  "ratings": {
+    "usability": 4.4,
+    "easeOfUse": 3.8,
+    "quality": 4.6,
+    "overall": 4.3
+  }
+}
