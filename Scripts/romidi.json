@@ -5,7 +5,7 @@
   "description": "The most versatile autoplayer on Roblox — Piano, Drum, and Guitar in one script. Rich humanization suite with chord rolling, hand drift, tempo sway, and mistake simulation. Includes 88-key mode, local MIDI support, persistent settings, and a polished draggable UI. Fully supports mobile and PC executors.",
   "howToUse": "1. Get a key via the key system on the RoMidi website\n2. Paste the script into your executor (Delta, ArceusX, Xeno, Synapse all work)\n3. Enter your key when prompted\n4. Pick your instrument — Piano, Drum, or Guitar\n5. Choose a preset song or load a local MIDI file from your device\n6. Adjust humanization settings to taste, then hit Play",
   "categories": ["Piano", "Drums", "Guitar", "Virtual Piano"],
-  "badges": ["PIANO", "DRUM", "GUITAR", "MIDI", "MOBILE", "KEY SYSTEM"],
+  "badges": ["PIANO", "DRUM", "GUITAR", "PC", "MIDI", "MOBILE", "KEY SYSTEM"],
   "script": "loadstring(game:HttpGet('https://romidi-script.pages.dev/RoMidi.txt'))()",
   "ratings": {
     "usability": 5.0,
